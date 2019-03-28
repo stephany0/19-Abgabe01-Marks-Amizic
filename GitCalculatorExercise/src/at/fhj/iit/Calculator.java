@@ -61,12 +61,12 @@ public interface Calculator {
 	 *
 	 *
 	 */
+	int sum();
 	//maximum method
-	
 	int getMaximum();
 	//minimum method
 	int getMinimum();
 	
-	void addValue();
+	void addValue(int value);
 
 }
