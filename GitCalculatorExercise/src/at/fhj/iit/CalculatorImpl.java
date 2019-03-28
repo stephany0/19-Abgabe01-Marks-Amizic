@@ -10,10 +10,10 @@ public class CalculatorImpl implements Calculator {
 	@Override
 	public int sum() {
 		int sum = 0;
-		for(int i = 0; i < numbers.size(); i++) {
-			sum += numbers.get(i);
-		}
-		return sum;
+	    for (int i: numbers) {
+	        sum += i;
+	    }
+	    return sum;
 	}
 
 	@Override
