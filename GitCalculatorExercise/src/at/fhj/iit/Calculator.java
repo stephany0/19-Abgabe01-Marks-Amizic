@@ -61,9 +61,10 @@ public interface Calculator {
 	 *
 	 *
 	 */
-
+	//maximum method
+	
 	int getMaximum();
-
+	//minimum method
 	int getMinimum();
 	
 	void addValue();
