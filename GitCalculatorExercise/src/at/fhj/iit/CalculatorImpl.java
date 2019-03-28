@@ -2,7 +2,7 @@ package at.fhj.iit;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import java.util.Collections;
 public class CalculatorImpl implements Calculator {
 
 	private List<Integer> numbers = new ArrayList<Integer>();
@@ -15,8 +15,8 @@ public class CalculatorImpl implements Calculator {
 
 	@Override
 	public int getMaximum() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return Collections.max(numbers);
 	}
 
 	@Override
