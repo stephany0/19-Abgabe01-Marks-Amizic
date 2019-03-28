@@ -10,6 +10,8 @@ public class Main {
 		calc.addValue(4);	// currently lowester number
 		calc.addValue(16);
 		
+		//System.out.println(calc.getMinimum());
+		
 		// add other integers
 		
 		// output lowest number 
