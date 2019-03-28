@@ -10,18 +10,17 @@ public class Main {
 		calc.addValue(4);	// currently lowester number
 		calc.addValue(16);
 
-		
-		//System.out.println(calc.getMaximum());		
-		//System.out.println(calc.getMinimum());
-
 		// add other integers
+		calc.addValue(30);
+		calc.addValue(2);
+		calc.addValue(23);
 		
 		// output lowest number 
-		
+		System.out.println(calc.getMinimum());
 		// output highest number
-		
+		System.out.println(calc.getMaximum());
 		// output sum of all numbers
-
+		System.out.println(calc.sum());
 	}
 
 }

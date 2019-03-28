@@ -9,13 +9,15 @@ public class CalculatorImpl implements Calculator {
 	
 	@Override
 	public int sum() {
-		// TODO Auto-generated method stub
-		return 0;
+		int sum = 0;
+		for(int i = 0; i < numbers.size(); i++) {
+			sum += numbers.get(i);
+		}
+		return sum;
 	}
 
 	@Override
 	public int getMaximum() {
-		
 		return Collections.max(numbers);
 	}
 
