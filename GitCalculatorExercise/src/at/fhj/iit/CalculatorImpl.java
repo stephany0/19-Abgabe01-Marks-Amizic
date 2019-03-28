@@ -9,8 +9,16 @@ public class CalculatorImpl implements Calculator {
 	
 	@Override
 	public int sum() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		
+		
+		int sum = 0;
+	    for (int i: numbers) {
+	        sum += i;
+	    }
+	    return sum;
+	
+		
 	}
 
 	@Override
